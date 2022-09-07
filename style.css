@@ -234,7 +234,7 @@ main {
   display: block;
   z-index: -1; */
 
-  content: "01. ";
+  content: "02. ";
   z-index: -1;
   transform: rotate(-90deg);
   position: absolute;
@@ -248,7 +248,7 @@ main {
 }
 
 .about__title:before {
-  content: "02. ";
+  content: "01. ";
   z-index: -1;
   transform: rotate(-90deg);
   position: absolute;
@@ -262,19 +262,10 @@ main {
 }
 
 .contact__title:before {
-  /* content: "03. Contato";
-  position: absolute;
-  left: 16px;
-  top: -20px;
-  color: #7856b685;
-  font-size: 2.8rem;
-  z-index: -1; */
-
   content: "03. ";
   z-index: -1;
   transform: rotate(-90deg);
   position: absolute;
-
   bottom: 0;
   left: 0;
   top: 0;
@@ -329,19 +320,6 @@ main {
   background-color: var(--primary-color-opac);
 }
 
-/* .content__label--html{
-  background-color: #ff4b2f;
-}
-
-.content__label--css{
-background-color: #0f93df;
-}
-
-.content__label--js{
-background-color: #f9e84f;
-color: var(--font-color-dark);
-} */
-
 .menu__lateral {
   background-color: #2d2d2a;
   display: flex;
@@ -349,14 +327,14 @@ color: var(--font-color-dark);
   height: 100vh;
   left: 0;
   position: absolute;
-  transition: 600ms ease-in;
+  transition: 400ms ease-in;
   width: 100vw;
   z-index: 7;
 }
 
 .menu__lateral--active {
   left: -100vw;
-  transition: all 500ms ease;
+  transition: all 400ms ease-in;
 }
 
 .menu__lateral--logo {
@@ -496,25 +474,20 @@ color: var(--font-color-dark);
   align-items: center;
   padding: 1.4rem;
   text-align: center;
-  font-size: 1.4rem;
-  width: 14rem;
+  font-size: 1.2rem;
+  width: 15rem;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .techs__list {
-
-    height: 25vh;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60rem;
+    margin: 4rem auto;
     gap: 2rem 2rem;
     font-size: 1.4rem;
   }
 
   .techs__list--item {
-    width: 40rem;
+    width: 30rem;
   }
 }
 
@@ -543,7 +516,6 @@ color: var(--font-color-dark);
   flex-direction: column;
   width: 100%;
   max-width: 1100px;
-
 
   font-weight: 200;
 
