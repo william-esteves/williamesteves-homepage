@@ -26,7 +26,7 @@
   padding: 0;
 }
 
-.techs__list--icon{
+.techs__list--icon {
   width: 3rem;
   margin-left: auto;
   align-items: center;
@@ -300,29 +300,29 @@ main {
   border-radius: 2px;
 }
 
-.content__card--txt{
+.content__card--txt {
   display: flex;
   gap: 1rem;
   align-items: center;
   justify-content: space-between;
 }
 
-.content__card--txt i{
+.content__card--txt i {
   font-size: 2rem;
-  background-color:var(--font-color-dark);
+  background-color: var(--font-color-dark);
   padding: .6rem;
   border-radius: 50%;
 }
 
-.labels{
+.labels {
   display: flex;
   align-items: center;
   gap: 1.2rem;
   font-weight: 400;
 }
 
-.content__label {  
-  padding:  0 .4rem;
+.content__label {
+  padding: 0 .4rem;
   border-radius: .3rem;
   width: 4rem;
   text-align: center;
@@ -346,7 +346,7 @@ color: var(--font-color-dark);
   background-color: #2d2d2a;
   display: flex;
   flex-direction: column;
-  height: 570vh;
+  height: 100vh;
   left: 0;
   position: absolute;
   transition: 600ms ease-in;
@@ -485,47 +485,39 @@ color: var(--font-color-dark);
   flex-wrap: wrap;
   gap: 1rem 1rem;
   font-size: 1rem;
-  
+
+}
+
+.techs__list--item {
+  height: 8vh;
+  border-radius: .3rem;
+  background-color: #7856b685;
+  display: flex;
+  align-items: center;
+  padding: 1.4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  width: 14rem;
 }
 
 @media screen and (min-width: 768px) {
   .techs__list {
 
-height: 25vh;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
-    
-
-
+    height: 25vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
     gap: 2rem 2rem;
     font-size: 1.4rem;
-    
   }
 
   .techs__list--item {
-    
-    padding: 1.5rem;
-
-    height: 8vh;
-    display: flex;
-    align-items: center;
     width: 40rem;
-    text-align: right;
-    font-size: 1.4rem;
   }
-
 }
 
-.techs__list--item {
-  border-radius: .3rem;
-  background-color: #7856b685;
-  padding: 1.5rem;
-  width: 16.5rem;
-  text-align: center;
-  font-size: 1.4rem;
-}
 
 .contact {
   width: 100%;
