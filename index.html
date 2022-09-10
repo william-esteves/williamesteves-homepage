@@ -5,70 +5,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Lateral</title>
     <script src="https://kit.fontawesome.com/5b01f06b80.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/assets/profile--cartoon-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <title>William Esteves</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__box">
             <img src="/assets/profile--cartoon-removebg-preview.png" alt="" class="header__logo">
             <button class="header__btn"><i class="fa-solid fa-bars .header__btn--icon"></i></button>
         </div>
     </header>
 
-    <div class="menu__lateral menu__lateral--active">
+    <section class="menu__lateral menu__lateral--active">
         <img src="/assets/profile--cartoon-removebg-preview.png"
             alt="pessoa apresentada em formato de desenho com oculos e blusa vermelha em fundo branco"
             class="menu__lateral--logo">
         <ul class="menu__lateral--list">
             <a href="#" class="menu__lateral--link">
-                <li>HOME</li>
+                <li>Ínicio</li>
             </a>
-            <a href="#" class="menu__lateral--link">
-                <li>ABOUT</li>
+            <a href="#about" class="menu__lateral--link">
+                <li>Sobre</li>
             </a>
-            <a href="#" class="menu__lateral--link">
-                <li>CONTACT</li>
+            <a href="projects" class="menu__lateral--link">
+                <li>Projetos</li>
+            </a>
+            <a href="contact" class="menu__lateral--link">
+                <li>Contato</li>
             </a>
         </ul>
-    </div>
+    </section>
 
     <section class="hero">
         <p class="hero__txt">desenvolvedor front-end </p>
         <h1 class="hero__title">william <br> esteves</h1>
-
         <div class="hero__buttons">
-            <button class="hero__buttons--item">projetos recentes</button>
-            <button class="hero__buttons--item">fale comigo</button>
-
+            <a href="#projects" class="hero__buttons--link"><button class="hero__buttons--item">projetos recentes</button></a>
+            <a href="#contact" class="hero__buttons--link"><button class="hero__buttons--item">fale comigo</button></a>
         </div>
     </section>
 
     <main>
         <h2 class="about__title">Sobre</h2>
-        <section class="about content">
+        <section class="about content" id="about">
             <div class="about__box--top">
                 <img src="/assets/profile--cartoon-removebg-preview.png" alt="" class="about__img">
             </div>
             <div class="about__box">
                 <div class="about__left">
                     <h3>Sobre William </h3><br>
-                    <p>Profissional com mais de 10 anos de experiência no atendimento ao cliente de empresas do ramo
-                        comercial. Buscando transição de carreira para a área de Desenvolvimento Web.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, eveniet illum! Consequatur
+                        praesentium facere provident aperiam rerum tempore voluptatem explicabo!</p>
                     <br>
-                    <p>A príncipio estudando tecnologias como HTML, CSS e seus frameworks como BootStrap e Bulma. Em
-                        paralelo, iniciando com o JavaScript como linguagem de programação até ter base para seus
-                        framemorks, como ReactJs por meio de plataformas on-line de ensino de programação. </p><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab laborum commodi accusamus eos iste
+                        officia nihil non nulla, in, molestias voluptas quia facilis error laboriosam dolorem quos iusto
+                        minima itaque, voluptate eligendi! Excepturi, fugiat ad?</p><br>
 
                     <nav>
                         <small>Me siga nas Redes Sociais: </small>
                         <ul class="about__socials">
-                            <li><i class="fa-brands fa-square-github"></i></li>
-                            <li><i class="fa-brands fa-linkedin"></i></li>
-                            <li><i class="fa-brands fa-square-twitter"></i></li>
-                            <li><i class="fa-brands fa-square-instagram"></i></li>
+                            <a href="https://github.com/william-esteves" target="_blank"
+                                referrerpolicy="nofereer noopener">
+                                <li><i class="fa-brands fa-square-github"></i></li>
+                            </a>
+                            <a href="https://www.linkedin.com/in/williamesteves/" target="_blank"
+                                referrerpolicy="nofereer noopener">
+                                <li><i class="fa-brands fa-linkedin"></i></li>
+                            </a>
+                            <a href="https://twitter.com/_williamesteves" target="_blank"
+                                referrerpolicy="nofereer noopener">
+                                <li><i class="fa-brands fa-square-twitter"></i></li>
+                            </a>
+                            <a href="https://www.instagram.com/williamesteves/" target="_blank"
+                                referrerpolicy="nofereer noopener">
+                                <li><i class="fa-brands fa-square-instagram"></i></li>
+                            </a>
                         </ul>
                     </nav>
                 </div>
@@ -78,28 +92,26 @@
                 <h3>Tecnologias e Ferramentas</h3>
                 <ul class="techs__list">
                     <li class="techs__list--item">HTML <img src="/assets/html5.svg" class="techs__list--icon"></li>
-                    <li class="techs__list--item">CSS3 <img src="/assets/css3-alt.svg" alt="" class="techs__list--icon"></li>
-                    <li class="techs__list--item">JAVASCRIPT <img src="/assets/js.svg" alt="" class="techs__list--icon"></li>
-                    <li class="techs__list--item">GIT/GITHUB <img src="/assets/github.svg" alt="" class="techs__list--icon"></li>
-                    <li class="techs__list--item">VSCODE <img src="/assets/visual-studio-code-1.svg" alt="" class="techs__list--icon"></li>
-                    <li class="techs__list--item">FIGMA <img src="/assets/figma.svg" alt="" class="techs__list--icon"></li>
+                    <li class="techs__list--item">CSS3 <img src="/assets/css3-alt.svg" alt="" class="techs__list--icon">
+                    </li>
+                    <li class="techs__list--item">JAVASCRIPT <img src="/assets/js.svg" alt="" class="techs__list--icon">
+                    </li>
+                    <li class="techs__list--item">GIT/GITHUB <img src="/assets/github.svg" alt=""
+                            class="techs__list--icon"></li>
+                    <li class="techs__list--item">VSCODE <img src="/assets/visual-studio-code-1.svg" alt=""
+                            class="techs__list--icon"></li>
+                    <li class="techs__list--item">FIGMA <img src="/assets/figma.svg" alt="" class="techs__list--icon">
+                    </li>
                 </ul>
-                <!-- <H3>HTML</H3>
-                <H3>CSS3</H3>
-                <H3>JAVASCRIPT</H3>
-                <H3>GIT/GITHUB</H3>
-                <H3>VSCODE</H3>
-                <H3>FIGMA</H3> -->
-
             </div>
-
         </section>
         <h2 class="content__title">Projetos</h2>
-        <section class="content">
+        <section class="content" id="projects">
             <article class="content__card">
-                <img src="/assets/images/thumb-hello_world.png" alt="" class="content__card--img">
+                <img src="/assets/images/thumb-hello_world.png" alt="foto planeta terra vista do espaço "
+                    class="content__card--img">
                 <h3>Hello World!</h3>
-                <p>Lorem ipsum dolor sit amet.</p><br>
+                <p>Página de Hello World!</p><br>
                 <div class="content__card--txt">
                     <div class="labels">
                         <div class="content__label content__label--html">html</div>
@@ -108,7 +120,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://21days-rocket-seat-ho0ggcubt-william-esteves.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -125,7 +138,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://21days-rocket-seat-day003.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -142,7 +156,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://21days-rocketseat-day04-calculator.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -159,7 +174,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://21days-rocketseat-404error.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -176,7 +192,7 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://cardprofile.vercel.app/" target="_blank"> <i class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -193,7 +209,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://contadortempo-js.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -210,7 +227,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://toggle-button.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -227,7 +245,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://animation-loading-five.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -244,7 +263,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://willcard-particlejs.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -261,7 +281,7 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://login-form-two-psi.vercel.app/"> <i class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -278,7 +298,7 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://wallpaper-gallery.vercel.app/"> <i class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -294,7 +314,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://menu-animated-phi.vercel.app/" target="_blank"> <i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -311,7 +332,8 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://quizz-html-css.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -328,7 +350,7 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://upbeat-kappa.vercel.app/" target="_blank"><i class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -345,7 +367,7 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://consulta-cep-psi.vercel.app/"> <i class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
@@ -362,15 +384,16 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://keyboard-events-inky.vercel.app/index.html" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
 
             <article class="content__card">
                 <img src="/assets/images/day18__pass-generator__thumb.png" alt="" class="content__card--img">
-                <h3>Hello World!</h3>
-                <p>Lorem ipsum dolor sit amet.</p><br>
+                <h3>Gerador de Senhas</h3>
+                <p>Gerador de senhas aleatórias com JavaScript</p><br>
                 <div class="content__card--txt">
                     <div class="labels">
                         <div class="content__label content__label--html">html</div>
@@ -379,15 +402,16 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://pass-generator-two.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
 
             <article class="content__card">
                 <img src="/assets/images/day19__unsplashImages__thumb.png" alt="" class="content__card--img">
-                <h3>Hello World!</h3>
-                <p>Lorem ipsum dolor sit amet.</p><br>
+                <h3>Imagens Aleatórias - Unsplash</h3>
+                <p>Gera imagens randômicas com a Api do Unsplash</p><br>
                 <div class="content__card--txt">
                     <div class="labels">
                         <div class="content__label content__label--html">html</div>
@@ -396,15 +420,33 @@
                     </div>
                     <nav>
                         <i class="fa-brands fa-square-github"></i>
-                        <i class="fa-solid fa-globe"></i>
+                        <a href="https://random-images-alpha.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
                     </nav>
                 </div>
             </article>
 
+            <article class="content__card">
+                <img src="/assets/images/day20__emojiPicker__thumb.png" alt="" class="content__card--img">
+                <h3>Emoji Picker</h3>
+                <p>Selecione o Emoji e copie para a área de transferência</p><br>
+                <div class="content__card--txt">
+                    <div class="labels">
+                        <div class="content__label content__label--html">html</div>
+                        <div class="content__label content__label--css">css</div>
+                        <div class="content__label content__label--js">js</div>
+                    </div>
+                    <nav>
+                        <i class="fa-brands fa-square-github"></i>
+                        <a href="   https://emoji-picker-ochre.vercel.app/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
+                    </nav>
+                </div>
+            </article>
         </section>
 
         <h2 class="contact__title">Contato</h2>
-        <section class="content contact">
+        <section class="content contact" id="contact">
             <div class="right">
 
                 <div class="contact__txt">
@@ -437,21 +479,30 @@
             <nav class="footer__nav">
 
                 <ul class="footer__socials">
-                    <li><i class="fa-brands fa-square-github"></i></li>
-                    <li><i class="fa-brands fa-linkedin"></i></li>
-                    <li><i class="fa-brands fa-square-twitter"></i></li>
-                    <li><i class="fa-brands fa-square-instagram"></i></li>
+                    <a href="https://github.com/william-esteves" target="_blank" referrerpolicy="nofereer noopener">
+                        <li><i class="fa-brands fa-square-github"></i></li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/williamesteves/" target="_blank"
+                        referrerpolicy="nofereer noopener">
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </a>
+                    <a href="https://twitter.com/_williamesteves" target="_blank" referrerpolicy="nofereer noopener">
+                        <li><i class="fa-brands fa-square-twitter"></i></li>
+                    </a>
+                    <a href="https://www.instagram.com/williamesteves/" target="_blank"
+                        referrerpolicy="nofereer noopener">
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                    </a>
                 </ul>
             </nav>
         </div>
         <div class="footer__txt">
-            <!-- <div class="footer__box--logo">
-                <img src="/assets/profile--cartoon-removebg-preview.png" alt="" class="footer__box--img">
-            </div> -->
             <small>
-                criado por William Esteves - c 2022
+                William Esteves - 2022
             </small>
         </div>
+        <a href="#header" class="float__button"><i class="fa-solid fa-circle-chevron-up"></i></a>
+        <a href="#header" class="float__button--mobile">voltar ao topo</a>
     </footer>
     <script src="/script.js"></script>
 </body>
